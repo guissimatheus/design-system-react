@@ -17,5 +17,9 @@
 - npx sb init --builder @storybook/builder-vite --use-npm
 - npm run storybook
 
+- npm install @radix-ui/react-slot
+- npm install --save clsx
+
+- Página Colors Figma: Plugins Colorstyle Guide
 
 - https://www.figma.com/file/ivE6zGou1qNDPPhunajS1u/Ignite-Lab-Design-System
