@@ -1,0 +1,33 @@
+name: Deploy Storybook
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Baixa a versão mais atualizada do projeto
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      # Comando para instalar as dependências em ambientes não-interativos
+      # Apenas instala as dependências, não tenta atualizá-las no package
+      - name: Instala as dependências
+        run: npm ci
+
+      - name: Faz o build do Storybook
+        run: npm run build-storybook
+
+      - name: Faz o deploy do Storybook
+        run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
+        env:
+          GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }} 
