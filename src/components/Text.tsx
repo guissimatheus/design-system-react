@@ -20,7 +20,8 @@ export function Text({ size = 'md', children, asChild }: TextProps) {
                     'text-sm': size == 'md',
                     'text-md': size == 'lg',
                 }
-        )}>
+            )}
+        >
             {children}
         </Comp>
     )

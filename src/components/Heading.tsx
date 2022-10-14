@@ -20,7 +20,8 @@ export function Heading({ size = 'md', children, asChild }: HeadingProps) {
                     'text-xl': size == 'md',
                     'text-2xl': size == 'lg',
                 }
-        )}>
+            )}
+        >
             {children}
         </Comp>
     )
