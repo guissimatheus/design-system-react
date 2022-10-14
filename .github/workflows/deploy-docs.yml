@@ -22,7 +22,7 @@ jobs:
       # Comando para instalar as dependências em ambientes não-interativos
       # Apenas instala as dependências, não tenta atualizá-las no package
       - name: Instala as dependências
-        run: npm ci
+        run: npm ci --legacy-peer-dps
 
       - name: Faz o build do Storybook
         run: npm run build-storybook
