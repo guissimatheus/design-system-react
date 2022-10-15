@@ -21,6 +21,7 @@
 - npm install --save clsx
 - npm i phosphor react
 - npm install @storybook/addon-a11y
+- https://transform.tools/
 
 - Página Colors Figma: Plugins Colorstyle Guide
 
