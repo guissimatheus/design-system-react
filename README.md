@@ -20,6 +20,7 @@
 - npm install @radix-ui/react-slot
 - npm install --save clsx
 - npm i phosphor react
+- npm install @storybook/addon-a11y
 
 - Página Colors Figma: Plugins Colorstyle Guide
 
