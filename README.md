@@ -18,4 +18,7 @@
 
 - https://www.figma.com/file/ivE6zGou1qNDPPhunajS1u/Ignite-Lab-Design-System
 
-- To-Do: arrumar README
+- To-Do:
+- organizar README
+- consertar CSS de SignIn 
+- verificar o uso do Mock de API no GitHub 
