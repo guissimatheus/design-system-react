@@ -1,24 +1,39 @@
 # Design System - React | Ignite Lab
 
-- npm install
-- npm run dev
+Este projeto foi desenvolvido durante o **Ignite Lab 03 - Do Figma ao React: Construção de _design system_ com React** da [Rocketseat](https://www.rocketseat.com.br/), ministrado pelo [Diego Schell Fernandes](https://www.linkedin.com/in/diego-schell-fernandes/). As aulas ocorreram do dia 10 a 12 de outubro.  
 
-- Extensões
+Essa edição do **Ignite Lab** teve como objetivo demonstrar a utilidade do **Figma** para o desenvolvimento de _designs_ de telas, sendo muito útil para a padronização de estilos  e componentes e suas variantes, as instâncias são chamadas de **_tokens_**.
+
+Além disso, foi ensinado como criar um Storybook a partir dos **_tokens_** para que o time de desenvolvedores possa visualizar todos os componentes e suas possíveis variações.
+
+## Extensões Recomendadas
+
 - PostCSS Language Support
 - Tailwind CSS IntelliSense
 
-- Storybook
+## Instruções
+
+Para executar o projeto e o storybook é necessário executar primeiramente o comando `npm install`.
+
+### Rodar o Projeto
+- npm run dev
+
+### Rodar o Storybook
 - npm run storybook
-- npm run test-storybook
-- npm run test-storybook -- --watch
 
-- Transforma SVG em React Component: https://transform.tools/
+É possível executar o comando `npm run test-storybook` para testar os stories do Storybook, e até mesmo o comando `npm run test-storybook -- --watch` para rodar os testes no modo **watch**.
 
-- Página Colors Figma: Plugins Colorstyle Guide
+### Página **Colors** no Figma
 
-- https://www.figma.com/file/ivE6zGou1qNDPPhunajS1u/Ignite-Lab-Design-System
+Para gerar uma nova página **Colors** atualizada no Figma, é preciso clicar com o botão direito dentro do frame, clicar em **Plugins** e procurar pelo _plugin_ **Color Stylesguide**.
 
-- To-Do:
-- organizar README
-- consertar CSS de SignIn 
-- verificar o uso do Mock de API no GitHub 
+## Links Úteis
+
+- [transform](https://transform.tools/) - Transforma um SVG em um componente do React
+- _[Design](https://www.figma.com/file/ivE6zGou1qNDPPhunajS1u/Ignite-Lab-Design-System)_ no Figma dos componentes e tela 
+
+## To-Do List
+
+- [x] Arrumar README
+- [ ] Consertar CSS de SignIn  
+- [ ] Verificar o uso do Mock de API no GitHub 
