@@ -2,7 +2,7 @@
 
 Este projeto foi desenvolvido durante o **Ignite Lab 03 - Do Figma ao React: Construção de _design system_ com React** da [Rocketseat](https://www.rocketseat.com.br/), ministrado pelo [Diego Schell Fernandes](https://www.linkedin.com/in/diego-schell-fernandes/). As aulas ocorreram do dia 10 a 12 de outubro de 2022.  
 
-Essa edição do **Ignite Lab** teve como objetivo demonstrar a utilidade do **Figma** para o desenvolvimento de _designs_ de telas, sendo muito útil para a padronização de estilos  e componentes e suas variantes, as instâncias são chamadas de **_tokens_**.
+Essa edição do **Ignite Lab** teve como objetivo demonstrar a utilidade do **Figma** para o desenvolvimento de _designs_ de telas, sendo muito útil para a padronização de estilos  e componentes e suas variantes, responsáveis por determinar os **_design tokens_**.
 
 Além disso, foi ensinado como criar um Storybook a partir dos **_tokens_** para que o time de desenvolvedores possa visualizar todos os componentes e suas possíveis variações.
 
