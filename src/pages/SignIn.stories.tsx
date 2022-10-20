@@ -1,5 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react';
 import { within, userEvent, waitFor } from '@storybook/testing-library';
+import { MINIMAL_VIEWPORTS} from '@storybook/addon-viewport';
 import { expect } from '@storybook/jest';
 import { rest } from 'msw';
 
@@ -14,11 +15,29 @@ export default {
         msw: {
             handlers: [
                 rest.post('/sessions', (req, res, ctx) => {
-                    return res(ctx.json({
-                        message: 'Login realizado!'
-                    }))
-                })
+                    return res(
+                        ctx.json({
+                            message: 'Login realizado!'
+                        })
+                    )
+                }),
             ]
+        },
+        viewport: {
+            // Maneira temporária para exibir corretamente no Preview do Storybook
+            viewports: {
+                ...{
+                    default: {
+                        name: 'Default',
+                        styles: {
+                          width: '650px',
+                          height: '800px',
+                        },
+                      },
+                },
+                ...MINIMAL_VIEWPORTS,
+            },
+            defaultViewport: 'default',
         },
     }
 } as Meta

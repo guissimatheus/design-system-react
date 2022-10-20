@@ -13,6 +13,7 @@ initialize({
 export const decorators = [mswDecorator];
 
 export const parameters = {
+  layout: 'centered',
   actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {
     matchers: {
