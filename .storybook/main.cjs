@@ -2,6 +2,7 @@ const { config } = require("@storybook/addon-actions");
 
 module.exports = {
   "stories": [
+    "../src/info/Developer.stories.tsx",
     "../src/**/*.stories.mdx",
     "../src/**/*.stories.@(js|jsx|ts|tsx)"
   ],
