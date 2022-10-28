@@ -46,6 +46,6 @@
     "vite": "^3.1.0"
   },
   "msw": {
-    "workerDirectory": "public"
+    "workerDirectory": "design-system-react/public"
   }
 }
