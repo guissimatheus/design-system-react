@@ -18,12 +18,14 @@ module.exports = {
   },
   "features": {
     "storyStoreV7": true,
+    "buildStoriesJson": true,
     "interactionsDebugger": true
   },
   "staticDirs": [
     "../public"
   ],
   viteFinal: (config, { configType }) => {
+    // Solução provisória para exibir imagens corretamente no GitHub
     // if (configType == 'PRODUCTION') {
       config.base = '/design-system-react/'
     // }
