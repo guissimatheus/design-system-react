@@ -38,3 +38,4 @@ Para gerar uma nova página **Colors** atualizada no Figma, é preciso clicar co
 - [x] Consertar CSS de SignIn no Preview do Storybook
 - [x] Adicionar página com minhas informações de contato
 - [ ] Verificar o uso do Mock de API no GitHub 
+- [ ] Melhorar mensagem de login
